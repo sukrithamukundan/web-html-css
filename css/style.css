@@ -1,0 +1,414 @@
+body{
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+.container{
+  width:80%;
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#F4B41A;
+  border:0;
+  padding-left: 8px;
+  padding-right:8px;
+  color:#ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button_1:hover{
+	background:rgb(77, 75, 75);
+	color:#fff;
+}
+
+.border{
+  width: 100px;
+  height: 3px;
+  background: #e74c3c;
+  margin: 40px auto;
+}
+
+/* Header*/
+header{
+  background:#143D59;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#F4B41A 3px solid;
+
+}
+
+header a{
+  color:#ffffff;
+  font-size:20px;
+}
+
+header li{
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #caption{
+  float:left;
+}
+
+header #caption h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight , header .current a{
+  color:#F4B41A;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+/* heading */
+#heading{
+  min-height:400px;
+  background-image:url('../img/Coronavirus-COVID-19.jpg');
+  background-repeat:no-repeat;
+  background-position: left center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+#heading h1{
+  margin-top:50px;
+  font-size:85px;
+  font-family: 'Anton', sans-serif;
+  margin-bottom:0px;
+}
+
+#heading h2{
+  margin-top:10px;
+  font-size:75px;
+  font-family: 'Abril Fatface', cursive;
+  margin-bottom:20px;
+}
+
+
+/* search*/
+#search{
+  padding:15px;
+  color:#ffffff;
+  background:#143D59
+}
+
+#search h1{
+  float:left;
+}
+
+#search form {
+  float:right;
+  margin-top:15px;
+}
+
+#search input[type="text"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+
+/* Boxes */
+#boxes{
+  margin-top:50px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;  
+}
+
+#boxes .box p{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+#boxes .box img{
+  width:100px;
+}
+
+.clr{
+	clear:both;
+}
+
+
+/*slogan*/
+.slogan h1{
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(4, 158, 55);
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.slogan h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;  
+  font-family: 'Abril Fatface', cursive;
+}
+
+.slogan p{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+}
+
+
+/*form*/
+#my-form{
+  padding:20px;
+  background-color:bisque;
+  margin-left:30% ;
+  margin-right: 30%;
+}
+
+#my-form .form-group{
+  padding-bottom:15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #F4B41A;
+}
+
+#my-form label{
+  display:block;
+}
+
+/*video*/
+#videos .video{
+  margin-top: 25px;
+  position: relative;
+  padding-bottom: 30%;
+  height: 0px;
+  margin-left: 27%;
+  margin-right: 27%;
+}
+
+#videos .video iframe{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/* about */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+#about a{
+  display: inline-block;
+  color: #e74c3c;
+  border: 2px solid #e74c3c;
+  border-radius: 24px;
+  padding: 8px 40px;
+  
+}
+#about a:hover{
+  color: #fff;
+  background: #e74c3c;
+}
+#about .dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+
+/*services*/
+
+#services{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    rgba(110, 88, 88, 0.5),
+    rgba(59, 48, 48, 0.4)
+), url('../img/service2.jpeg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+.s-section{
+  
+  padding: 60px;
+  height: 100%;
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.s-title{
+  text-align: center;
+  color: #9c1b0d;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+.s-titles{
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.s-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.s-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color:  #9c1b0d;
+  cursor: pointer;
+}
+.s-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #143D59;
+  color: #143D59;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.s-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.s-box:hover .s-icon{
+  background: #143D59;
+  color:  #9c1b0d;
+}
+.s-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.s-desc{
+  font-size: 14px;
+}
+
+/*contact*/
+#contact{
+  background: url('../img/contact2.jpeg') no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	font-size: 16px;
+}
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.contact-form{
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	background: rgba(0,0,0,0.7);
+	padding: 40px 50px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.title{
+	font-size: 2em;
+	line-height: 1.25em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2px;
+	color: #ffc107;
+  padding-bottom: 15px;
+  
+}
+
+.input-fields {
+    padding: 0 30px;
+}
+
+.input-fields .items{
+	width: 100%;
+	padding-bottom: 15px;
+} 
+
+.input-fields .items .label{
+	display: block;
+    font-size: 1em;
+    color: #ffecb3;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    padding-bottom: 5px;
+}
+
+.input-fields .items .input,
+.input-fields .items .text-area{
+	background: transparent;
+    border: 0;
+    border: 1px solid #ffecb3;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+    color: #ffecb3;
+    border-radius: 3px;
+}
+
+.items #msg{
+	height: 100px;
+}
+
+/*footer*/
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#F4B41A;
+  text-align: center;
+}
+
+
